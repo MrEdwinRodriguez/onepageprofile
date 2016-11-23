@@ -342,17 +342,17 @@ p.less-bottom{
 	text-transform: uppercase;
 	margin-bottom: 15px;
 }
-.webdesign{
+.htmlcss{
 	width: 80%;
 }
-.webdev{
-	width: 90%;
+.javascript{
+	width: 75%;
 }
-.logo{
-	width: 70%;
+.node{
+	width: 60%;
 }
-.photo{
-	width:95%;
+.php{
+	width:50%;
 }
 .progress {
   border-radius: 0;
