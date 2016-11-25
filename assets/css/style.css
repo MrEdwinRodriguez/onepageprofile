@@ -456,9 +456,10 @@ p.less-bottom{
 	color:#888;	
 }
 
-.funny{
+#joke{
 
-	height: 600px;
+	width: 100%;
+	height: 99%;
 }
 
 /*--------------------------------------------------
@@ -973,6 +974,13 @@ ul.errorMessages li {
 body{
 	margin: 0px;
 }
+
+#joke{
+
+	height: 80%;
+}
+
+
 
 #headerBar {
 	width: 100%;
