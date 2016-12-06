@@ -7,6 +7,7 @@ $formcontent=" From: $name \n subject: $subject \n  Message: $message";
 $recipient = "mredwinrodriguez@gmail.com";
 $subject = "Add Your Subject Here";
 $mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-header("location: thank-you.html")
+mail($recipient, $subject, $formcontent, $mailheader); 
+// or die("Error!");
+header("location: thank-you.html");
 ?>
