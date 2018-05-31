@@ -78,7 +78,7 @@ a:focus {
   	outline: 0;
 	color: #111;
 	background: transparent;
-}
+} 
 
 /*--------------------------------------------------
 	01. Navigation menu
@@ -165,7 +165,7 @@ a:focus {
   border: 8px solid rgba(0, 0, 0, 0.2);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+/*  margin-top: 50px;*/
   padding: 20px 30px 40px;
   width: 720px;
 }
@@ -231,6 +231,25 @@ a:focus {
   text-transform: uppercase;
   transition: all 0.3s ease-in-out 0s;
 }
+
+.emailHolder{
+	  background: #ffb03a none repeat scroll 0 0;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  display: inline-block;
+  font-family: "Open Sans",sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 12px 36px;
+  text-align: center !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out 0s;
+
+}
+
 .hi a i{
 	position: relative;
 	left: -3px;
@@ -343,17 +362,43 @@ p.less-bottom{
 	margin-bottom: 15px;
 }
 .htmlcss{
-	width: 80%;
+	width: 90%;
 }
 .javascript{
-	width: 75%;
+	width: 90%;
 }
 .node{
-	width: 60%;
+	width: 75%;
 }
-.php{
-	width:50%;
+.python{
+	width:80%;
 }
+.django{
+	width:70%;
+}
+.jquery{
+	width:90%;
+}
+.sql{
+	width: 80%;
+}
+.angular{
+	width: 50%;
+}
+.git{
+	width: 80%;
+}
+.datatable{
+	width: 90%;
+}
+.docker{
+	width: 40%
+}
+.bootstrap{
+	width: 90%;
+}
+
+
 .progress {
   border-radius: 0;
 }
